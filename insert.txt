@@ -1,0 +1,262 @@
+db.users.insertMany([
+    {
+        id: 1,
+        firstName: "Alice",
+        lastName: "Johnson",
+        age: 28,
+        jobTitle: "Software Engineer",
+        hobbies: ["Reading", "Hiking", "Cooking"],
+        salary: 80000,
+        department: "Engineering",
+        yearsOfExperience: 5,
+        address: {
+            street: "123 Main St",
+            city: "Anytown",
+            country: "UK"
+        },
+        certifications: ["AWS Certified Developer", "Scrum Master"],
+        languages: ["JavaScript", "Python", "Java"],
+        projects: [
+            { name: "Project X", status: "Ongoing" },
+            { name: "Project Y", status: "Completed" }
+        ],
+        evaluations: [
+            { year: 2021, rating: 4.5 },
+            { year: 2022, rating: 4.8 }
+        ]
+    },
+    {
+        id: 2,
+        firstName: "Bob",
+        lastName: "Smith",
+        age: 24,
+        jobTitle: "UI/UX Designer",
+        hobbies: ["Painting", "Gardening", "Playing guitar"],
+        salary: 75000,
+        department: "Design",
+        yearsOfExperience: 3,
+        address: {
+            street: "456 Park Ave",
+            city: "AnotherCity",
+            country: "USA"
+        },
+        certifications: ["Adobe Certified Expert", "UI/UX Certification"],
+        languages: ["CSS", "HTML", "Sketch"],
+        projects: [
+            { name: "Design Project A", status: "Ongoing" },
+            { name: "Design Project B", status: "Paused" }
+        ],
+        evaluations: [
+            { year: 2021, rating: 4.2 },
+            { year: 2022, rating: 4.6 }
+        ]
+    },
+    {
+        id: 3,
+        firstName: "Claire",
+        lastName: "Williams",
+        age: 31,
+        jobTitle: "Product Manager",
+        hobbies: ["Yoga", "Traveling", "Photography"],
+        salary: 90000,
+        department: "Management",
+        yearsOfExperience: 7,
+        address: {
+            street: "789 Oak St",
+            city: "AnotherTown",
+            country: "USA"
+        },
+        certifications: ["MBA", "Product Management Certification"],
+        languages: ["English", "French"],
+        projects: [
+            { name: "Product Launch", status: "Completed" },
+            { name: "Market Analysis", status: "Ongoing" }
+        ],
+        evaluations: [
+            { year: 2021, rating: 4.7 },
+            { year: 2022, rating: 4.9 }
+        ]
+    },
+    {
+        id: 4,
+        firstName: "David",
+        lastName: "Brown",
+        age: 26,
+        jobTitle: "Software Developer",
+        hobbies: ["Skiing", "Cooking", "Video Games"],
+        salary: 85000,
+        department: "Engineering",
+        yearsOfExperience: 4,
+        address: {
+            street: "567 Elm St",
+            city: "Anytown",
+            country: "USA"
+        },
+        certifications: ["Microsoft Certified: Azure Developer Associate", "Java SE 8 Programmer"],
+        languages: ["Java", "C#", "SQL"],
+        projects: [
+            { name: "Project Z", status: "Ongoing" },
+            { name: "Project W", status: "Completed" }
+        ],
+        evaluations: [
+            { year: 2021, rating: 4.6 },
+            { year: 2022, rating: 4.9 }
+        ]
+    },
+    {
+        id: 5,
+        firstName: "Ella",
+        lastName: "Miller",
+        age: 29,
+        jobTitle: "Data Analyst",
+        hobbies: ["Dancing", "Reading", "Hiking"],
+        salary: 78000,
+        department: "Analytics",
+        yearsOfExperience: 6,
+        address: {
+            street: "890 Maple St",
+            city: "Sometown",
+            country: "USA"
+        },
+        certifications: ["Google Analytics Certification", "Data Science Professional Certificate"],
+        languages: ["Python", "R", "SQL"],
+        projects: [
+            { name: "Data Visualization Project", status: "Completed" },
+            { name: "Data Mining Project", status: "Ongoing" }
+        ],
+        evaluations: [
+            { year: 2021, rating: 4.4 },
+            { year: 2022, rating: 4.7 }
+        ]
+    },
+    {
+        id: 6,
+        firstName: "Frank",
+        lastName: "Taylor",
+        age: 27,
+        jobTitle: "DevOps Engineer",
+        hobbies: ["Cycling", "Photography", "Playing piano"],
+        salary: 82000,
+        department: "Engineering",
+        yearsOfExperience: 4,
+        address: {
+            street: "111 Pine St",
+            city: "Othertown",
+            country: "USA"
+        },
+        certifications: ["AWS Certified Solutions Architect", "Docker Certified Associate"],
+        languages: ["Python", "Bash", "YAML"],
+        projects: [
+            { name: "CI/CD Pipeline Implementation", status: "Completed" },
+            { name: "Infrastructure as Code Project", status: "Ongoing" }
+        ],
+        evaluations: [
+            { year: 2021, rating: 4.7 },
+            { year: 2022, rating: 4.9 }
+        ]
+    },
+    {
+        id: 7,
+        firstName: "Grace",
+        lastName: "Clark",
+        age: 30,
+        jobTitle: "Software Engineer",
+        hobbies: ["Painting", "Traveling", "Cooking"],
+        salary: 85000,
+        department: "Engineering",
+        yearsOfExperience: 8,
+        address: {
+            street: "222 Oak St",
+            city: "SomeCity",
+            country: "USA"
+        },
+        certifications: ["AWS Certified Solutions Architect", "Certified Scrum Developer"],
+        languages: ["Java", "JavaScript", "C++"],
+        projects: [
+            { name: "Large-Scale System Development", status: "Completed" },
+            { name: "Refactoring Legacy Codebase", status: "Ongoing" }
+        ],
+        evaluations: [
+            { year: 2021, rating: 4.9 },
+            { year: 2022, rating: 5.0 }
+        ]
+    },
+    {
+        id: 8,
+        firstName: "Henry",
+        lastName: "Wilson",
+        age: 25,
+        jobTitle: "Frontend Developer",
+        hobbies: ["Gardening", "Playing guitar", "Hiking"],
+        salary: 76000,
+        department: "Engineering",
+        yearsOfExperience: 4,
+        address: {
+            street: "333 Elm St",
+            city: "Anytown",
+            country: "Ireland"
+        },
+        certifications: ["React Certification", "Frontend Masters Certificate"],
+        languages: ["HTML", "CSS", "JavaScript"],
+        projects: [
+            { name: "UI/UX Enhancement", status: "Completed" },
+            { name: "Frontend Performance Optimization", status: "Ongoing" }
+        ],
+        evaluations: [
+            { year: 2021, rating: 4.6 },
+            { year: 2022, rating: 4.8 }
+        ]
+    },
+    {
+        id: 9,
+        firstName: "Ivy",
+        lastName: "Anderson",
+        age: 32,
+        jobTitle: "Project Manager",
+        hobbies: ["Yoga", "Reading", "Traveling"],
+        salary: 92000,
+        department: "Management",
+        yearsOfExperience: 10,
+        address: {
+            street: "444 Pine St",
+            city: "AnotherCity",
+            country: "USA"
+        },
+        certifications: ["PMP", "Agile Certified Practitioner"],
+        languages: ["English", "Spanish"],
+        projects: [
+            { name: "Project Planning and Execution", status: "Completed" },
+            { name: "Risk Management Project", status: "Ongoing" }
+        ],
+        evaluations: [
+            { year: 2021, rating: 4.8 },
+            { year: 2022, rating: 4.9 }
+        ]
+    },
+    {
+        id: 10,
+        firstName: "Jack",
+        lastName: "Robinson",
+        age: 23,
+        jobTitle: "QA Engineer",
+        hobbies: ["Cooking", "Painting", "Playing video games"],
+        salary: 73000,
+        department: "Engineering",
+        yearsOfExperience: 2,
+        address: {
+            street: "555 Maple St",
+            city: "Sometown",
+            country: "UK"
+        },
+        certifications: ["ISTQB Certified Tester", "Selenium WebDriver Certification"],
+        languages: ["Java", "Python", "JavaScript"],
+        projects: [
+            { name: "Test Automation Implementation", status: "Completed" },
+            { name: "Performance Testing Project", status: "Ongoing" }
+        ],
+        evaluations: [
+            { year: 2021, rating: 4.3 },
+            { year: 2022, rating: 4.6 }
+        ]
+    }
+])
